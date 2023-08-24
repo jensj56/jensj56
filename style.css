@@ -1,14 +1,19 @@
 body {
-  background-color: rgb(25, 25, 25);
+  background: rgb(95,0,131);
+  background: linear-gradient(199deg, rgba(95,0,131,1) 0%, rgba(8,4,33,1) 100%);
   font-family: Arial, Helvetica, sans-serif;
+  height: fit-content;
 }
 .site {
   flex-direction: row;
 }
 .main-page {
-  /*border: 3px solid red;*/
+  /*border: 1px solid red;*/
+  border: 2px solid rgb(32, 32, 32);
+  padding-left: 10px;
   max-width: 950px;
   margin: auto;
+  background-color: rgb(25, 25, 25, 0.8);
 }
 h1 {
     line-height: 50px;
